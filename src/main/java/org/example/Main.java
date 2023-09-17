@@ -21,13 +21,13 @@ public class Main {
         return (float) summa / count;
     }
 
-    public static float averageEvenNumbers(int[] arryaOfElements, int count) {
+    public static float averageEvenNumbers(int[] arrayOfElements, int count) {
         int summa = 0;
         int i = 0;
         float averageEvenNumbers = 0;
         for (int j = 0; j < count; j++) {
-            if (arryaOfElements[j] % 2 == 0) {
-                summa += arryaOfElements[j];
+            if (arrayOfElements[j] % 2 == 0) {
+                summa += arrayOfElements[j];
                 i++;
             }
         }
