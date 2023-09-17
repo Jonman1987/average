@@ -14,7 +14,6 @@ public class Main {
 
     public static float average(int[] arrayOfElements, int count) {
         int summa = 0;
-        float average = 0;
         for (int j = 0; j < count; j++) {
             summa += arrayOfElements[j];
         }
