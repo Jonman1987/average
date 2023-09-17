@@ -24,7 +24,6 @@ public class Main {
     public static float averageEvenNumbers(int[] arrayOfElements, int count) {
         int summa = 0;
         int i = 0;
-        float averageEvenNumbers = 0;
         for (int j = 0; j < count; j++) {
             if (arrayOfElements[j] % 2 == 0) {
                 summa += arrayOfElements[j];
