@@ -31,8 +31,7 @@ public class Main {
                 i++;
             }
         }
-        averageEvenNumbers = (float) summa / i;
-        return averageEvenNumbers;
+        return  (float) summa / i;
     }
 
     public static void main(String[] args) {
