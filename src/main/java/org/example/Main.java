@@ -38,9 +38,9 @@ public class Main {
         System.out.println("Сколько чисел вы хотите ввести?");
         count = scannerNumber.nextInt();
         System.out.println("Введите не более " + count + " чисел");
-        int[] massiveElements = new int[count];
-        input(massiveElements, count);
-        System.out.println("Среднее арифметическое вашего ввода = " + average(massiveElements, count));
-        System.out.println("Среднее арифметическое четных чисел вашего ввода = " + averageEvenNumbers(massiveElements, count));
+        int[] arrayOfElements = new int[count];
+        input(arrayOfElements, count);
+        System.out.println("Среднее арифметическое вашего ввода = " + average(arrayOfElements, count));
+        System.out.println("Среднее арифметическое четных чисел вашего ввода = " + averageEvenNumbers(arrayOfElements, count));
     }
 }
